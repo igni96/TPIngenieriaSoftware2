@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"hasEnded" : "Ignacio 9/14/2018 15:26",
+		"wonBy:" : "Ignacio 9/15/2018 18:45",
+		"placeOf:" : "Ignacio 9/18/2018 17:54",
+		"initializeWithPlayers:withDices:withBoard:" : "Ignacio 9/14/2018 14:26",
+		"positionOf:" : "Ignacio 9/15/2018 16:30",
+		"turnOf:withResult:" : "Ignacio 9/15/2018 18:29",
+		"turnOf:" : "Ignacio 9/15/2018 18:27"
+	},
+	"class" : {
+		"withPlayers:withDices:withBoard:" : "Ignacio 9/14/2018 14:22"
+	}
+}

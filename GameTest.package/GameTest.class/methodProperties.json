@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"testGameStartingPositionIsZero" : "Ignacio 9/13/2018 21:21",
+		"testGameRespectsTurns" : "Ignacio 9/15/2018 18:31",
+		"testGameWonByJohn" : "Ignacio 9/15/2018 18:47",
+		"testGameCanEnd" : "Ignacio 9/15/2018 18:30",
+		"testGameIsCreated" : "Ignacio 9/13/2018 20:59",
+		"testGamePlayerThrowsDice" : "Ignacio 9/14/2018 14:34",
+		"testGamePlaceOfTimEquals2" : "Ignacio 9/18/2018 17:51"
+	},
+	"class" : { }
+}

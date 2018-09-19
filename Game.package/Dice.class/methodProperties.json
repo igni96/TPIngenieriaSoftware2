@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"QuantityOfSides" : "Ignacio 9/5/2018 21:08",
+		"initializeWithQuantityOfSides:" : "Ignacio 9/5/2018 21:06",
+		"throw" : "Ignacio 9/8/2018 17:45"
+	},
+	"class" : {
+		"assertQuantityOfSidesGreaterThanZero:" : "Ignacio 9/5/2018 21:16",
+		"withQuantityOfSides:" : "Ignacio 9/5/2018 21:19"
+	}
+}
