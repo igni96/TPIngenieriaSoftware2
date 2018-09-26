@@ -4,7 +4,7 @@ wonBy: aPlayer
 		(aPlayer=each)
 		ifTrue: [
 		
-			(each position=board numberOfSpaces )
+			(each position=numberOfTiles )
 			ifTrue: [ ^true ]
 			ifFalse: [ ^false ]
 			]

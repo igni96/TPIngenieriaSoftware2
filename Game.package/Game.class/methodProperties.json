@@ -1,14 +1,18 @@
 {
 	"instance" : {
-		"hasEnded" : "Ignacio 9/14/2018 15:26",
-		"wonBy:" : "Ignacio 9/15/2018 18:45",
-		"placeOf:" : "Ignacio 9/18/2018 17:54",
-		"initializeWithPlayers:withDices:withBoard:" : "Ignacio 9/14/2018 14:26",
+		"placeOf:" : "Ignacio 9/21/2018 17:04",
+		"hasEnded" : "Ignacio 9/21/2018 17:18",
+		"placeOfWhenGameIsBeingPlayed:" : "Ignacio 9/21/2018 17:14",
+		"wonBy:" : "Ignacio 9/19/2018 21:52",
+		"turnOfWhenGameHasEnded:" : "Ignacio 9/21/2018 17:14",
+		"turnOfWhenGameIsBeingPlayed:" : "Ignacio 9/21/2018 17:17",
 		"positionOf:" : "Ignacio 9/15/2018 16:30",
-		"turnOf:withResult:" : "Ignacio 9/15/2018 18:29",
-		"turnOf:" : "Ignacio 9/15/2018 18:27"
+		"placeOfWhenGameHasEnded:" : "Ignacio 9/21/2018 17:15",
+		"initializeWithPlayers:withDices:withBoard:" : "Ignacio 9/21/2018 16:55",
+		"turnOf:" : "Ignacio 9/21/2018 17:12"
 	},
 	"class" : {
-		"withPlayers:withDices:withBoard:" : "Ignacio 9/14/2018 14:22"
+		"assertNumberOfTilesGreaterThanZero:" : "Ignacio 9/19/2018 21:44",
+		"playedBy:throwing:onABoardWithNumberOfTiles:" : "Ignacio 9/19/2018 21:46"
 	}
 }

@@ -8,8 +8,9 @@
 	"instvars" : [
 		"players",
 		"dices",
-		"board",
-		"turn"
+		"turn",
+		"numberOfTiles",
+		"stateOfGame"
 	],
 	"name" : "Game",
 	"type" : "normal"

@@ -1,5 +1,5 @@
 tests
 testDiceWasCreated
 	|dice|
-	dice:=Dice withQuantityOfSides: 6.
+	dice:=Dice withType: (RandomDice new) withQuantityOfSides: 6.
 	self assert: dice QuantityOfSides equals: 6.

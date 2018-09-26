@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "GameTest",
+	"super" : "Object",
+	"category" : "Game",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BoardTest",
+	"name" : "GamePlaying",
 	"type" : "normal"
 }

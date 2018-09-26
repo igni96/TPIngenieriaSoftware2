@@ -1,26 +1,26 @@
 tests
 testGameCanEnd
-	| john tim players dice dices board game |
-	john := Player withName: 'John'.
-	tim := Player withName: 'Tim'.
+	| john tim players dice dices game |
+	john := Player named: 'John'.
+	tim := Player named: 'Tim'.
 	players := Array with: john with: tim.
-	dice := DeterministicDice withQuantityOfSides: 5.
+	dice := Dice withType: (DeterministicDice new) withQuantityOfSides: 5.
 	dices := Array with: dice.
-	board := Board withNumberOfSpaces: 20.
-	game := Game withPlayers: players withDices: dices withBoard: board.
+	
+	game := Game playedBy: players throwing: dices onABoardWithNumberOfTiles: 20.
 	self deny: game hasEnded.
 	self assert: (game positionOf: john) equals: 0.
 	self assert: (game positionOf: tim) equals: 0.
-	game turnOf: john withResult: 5.
-	game turnOf: tim withResult: 3.
+	game turnOf: john.
+	game turnOf: tim.
 	self assert: (game positionOf: john) equals: 5.
-	self assert: (game positionOf: tim) equals: 3.
-	game turnOf: john withResult: 5.
-	game turnOf: tim withResult: 3.
-	game turnOf: john withResult: 5.
-	game turnOf: tim withResult: 3.
-	game turnOf: john withResult: 5.
-	self should: [game turnOf: tim withResult: 3] raise: AssertionFailure .
+	self assert: (game positionOf: tim) equals: 1.
+	game turnOf: john.
+	game turnOf: tim.
+	game turnOf: john.
+	game turnOf: tim.
+	game turnOf: john.
+	self should: [game turnOf: tim] raise: AssertionFailure .
 	self assert: (game positionOf: john) equals: 20.
-	self assert: (game positionOf: tim) equals: 9.
+	self assert: (game positionOf: tim) equals: 3.
 	self assert: game hasEnded

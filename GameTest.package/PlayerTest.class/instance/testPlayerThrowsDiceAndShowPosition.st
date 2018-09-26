@@ -1,7 +1,7 @@
 tests
 testPlayerThrowsDiceAndShowPosition
 	|player dice|
-	player:= Player withName: 'Maria'.
-	dice:= Dice withQuantityOfSides: 6.
+	player:= Player named: 'Maria'.
+	dice:= Dice withType: (DeterministicDice new) withQuantityOfSides: 6.
 	player throws: dice.
-	 player position.       
+	self assert: (player position)equals: 5.       

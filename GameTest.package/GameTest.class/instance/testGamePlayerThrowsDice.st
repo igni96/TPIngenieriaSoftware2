@@ -1,17 +1,17 @@
 tests
 testGamePlayerThrowsDice
-	|john tim players dice dices board game|
-	john:= Player withName: 'John'.
-	tim:= Player withName: 'Tim'.
+	|john tim players dice dices game|
+	john:= Player named: 'John'.
+	tim:= Player named: 'Tim'.
 	players :=Array with: john with: tim.
-	dice:= DeterministicDice withQuantityOfSides: 5.
+	dice:= Dice withType: (DeterministicDice new) withQuantityOfSides: 5.
 	dices:=Array with: dice.
-	board:= Board withNumberOfSpaces: 20.
-	game:= Game withPlayers: players withDices: dices withBoard: board.
+	
+	game:= Game playedBy: players throwing: dices onABoardWithNumberOfTiles: 20.
 	self deny: game hasEnded.
 	self assert: (game positionOf: john) equals: 0.
 	self assert: (game positionOf: tim) equals: 0.
-	game turnOf: john withResult: 5.
+	game turnOf: john.
 	
 	self assert: (game positionOf: john) equals: 5.
 	

@@ -1,3 +1,3 @@
 initialization
-withName: aString 
+named: aString 
 	^self new initializeWithName: aString.

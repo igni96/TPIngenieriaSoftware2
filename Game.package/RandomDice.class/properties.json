@@ -5,12 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"QuantityOfSides",
-		"type",
-		"futureThrows",
-		"nextThrow"
-	],
-	"name" : "Dice",
+	"instvars" : [ ],
+	"name" : "RandomDice",
 	"type" : "normal"
 }

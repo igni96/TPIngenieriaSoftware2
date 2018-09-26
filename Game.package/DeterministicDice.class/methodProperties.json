@@ -2,7 +2,7 @@
 	"instance" : {
 		"QuantityOfSides" : "Ignacio 9/5/2018 21:56",
 		"initializeWithQuantityOfSides:" : "Ignacio 9/5/2018 21:56",
-		"throw:" : "Ignacio 9/8/2018 17:47"
+		"throw:" : "Ignacio 9/21/2018 16:52"
 	},
 	"class" : {
 		"assertQuantityOfSidesGreaterThanZero:" : "Ignacio 9/5/2018 21:56",

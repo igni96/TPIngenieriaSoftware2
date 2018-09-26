@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"numberOfSpaces"
-	],
-	"name" : "Board",
+	"instvars" : [ ],
+	"name" : "GameEnded",
 	"type" : "normal"
 }

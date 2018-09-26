@@ -1,9 +1,8 @@
 {
 	"instance" : {
-		"testThrowMustBeBelowMaxQantity" : "Ignacio 9/5/2018 22:09",
-		"testThrowReturnsColaboratorInDeterministicDice" : "Ignacio 9/5/2018 22:04",
-		"testDiceShouldRaiseExceptionWithNegativeQuantity" : "Ignacio 9/5/2018 21:28",
-		"testDiceWasCreated" : "Ignacio 9/5/2018 21:26"
+		"testThrowReturnsColaboratorInDeterministicDice" : "Ignacio 9/21/2018 16:48",
+		"testDiceShouldRaiseExceptionWithNegativeQuantity" : "Ignacio 9/21/2018 16:45",
+		"testDiceWasCreated" : "Ignacio 9/21/2018 16:46"
 	},
 	"class" : { }
 }
